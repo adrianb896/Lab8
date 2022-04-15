@@ -1,4 +1,6 @@
-package hazardControl;
+package hazardPersonel;
+
+import Actions.Hazard;
 
 public abstract class Employee implements HReporter_IF {
     protected String name;
