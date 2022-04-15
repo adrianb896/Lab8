@@ -1,4 +1,7 @@
-import hazardPeronel.*;
+package src;
+
+import src.hazardPersonel.*;
+
 
 public class main {
     public static void main(String[] args) {
