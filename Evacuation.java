@@ -9,5 +9,4 @@ public class Evacuation extends Decision{
         System.out.printf("Execute Evacuation Plan: suggested by %s for %s\n", suggestBy.getName(), hazard.toString());
         commander.evacuate();
     }
-
 }
