@@ -1,9 +1,16 @@
-package hazardControl;
+package Actions;
+
+import hazardPersonel.CEO;
+import hazardPersonal.Manager;
 
 public class Evacuation extends Decision{
     public Evacuation(Manager suggestedBy, int priority, Hazard hazard) {
         super(suggestedBy, priority, hazard);
     }
+    
+    /*
+    * @param commander
+    */
     
     @Override
     public void execute(CEO commander) {
