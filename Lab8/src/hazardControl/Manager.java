@@ -1,4 +1,13 @@
-package hazardControl;
+package hazardPersonel;
+
+import Actions.Decision;
+import Actions.Evacuation;
+import Actions.FileReport;
+import Actions.Hazard;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
 
 public class Manager extends Administrator {
 
