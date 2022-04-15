@@ -5,18 +5,18 @@ import Actions.Hazard;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CEO {
+public class CEO extends Administrator {
 
     public CEO(String name) {
         super(name);
 }
 
     @Override
-    public void seeDanger(HReporter_IF r, Hazard h) {
+    public void seeDanger(HReporter_IF reporter, Hazard hazard) {
         List<Decision> decisions = new ArrayList<>();
         for (Employee admin: members) {
             if(admin instanceof Manager)
-                decisions.addAll(((Manager)admin).suggestDecisions(h));
+                decisions.addAll(((Manager)admin).suggestDecisions(hazard));
         }
         implementDecision(decisions);
     }
