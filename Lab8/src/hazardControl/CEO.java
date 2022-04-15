@@ -1,5 +1,7 @@
 package hazardControl;
 
+import Actions.Decision;
+import Actions.Hazard;
 import java.util.ArrayList;
 import java.util.List;
 
