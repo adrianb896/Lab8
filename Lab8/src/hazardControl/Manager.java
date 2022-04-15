@@ -26,7 +26,7 @@ public class Manager {
         Boolean reportToCEO = true;
         for (each e: members) {
             DirectAdministrator d = (DirectAdministrator.e);
-            //hello world
+
 
         }
     }
