@@ -11,4 +11,4 @@ public class ProjectLeader extends DirectAdministrator {
 		super(name);
 	}
 
-}©2022 GitHub,Inc.
+} 
