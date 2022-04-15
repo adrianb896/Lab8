@@ -5,8 +5,10 @@ import src.Personel.Manager;
 
 public class FileReport extends Decision{
 
-    //this is the constructor the parameters for FileReport are
-    suggestedBy, priority and hazard
+    /*
+    * this is the constructor the parameters for FileReport are
+    * suggestedBy, priority and hazard
+    */
     public FileReport(Manager suggestedBy, int priority, Hazard hazard) {
         super(suggestedBy, priority, hazard);
     }
