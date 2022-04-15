@@ -1,4 +1,4 @@
-package hazardControl;
+package hazardPersonel;
 
 import Actions.Decision;
 import Actions.Hazard;
