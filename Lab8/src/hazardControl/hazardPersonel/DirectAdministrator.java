@@ -1,4 +1,3 @@
-//DirectAdministrator.java
 package src.hazardPersonel;
 
 import src.Actions.Hazard;
