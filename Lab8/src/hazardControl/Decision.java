@@ -5,27 +5,45 @@ import src.Personel.CEO;
 import src.Personel.Manager;
 
 public abstract class Decision {
-    //this will be for the  manager that will suggest the plan
+
+    /**
+     * this is the manager that the plan got suggested by
+     */
     protected Manager suggestedBy;
 
-    //this integer is for the priority level
+    /**
+     * level of priority
+     */
     protected int priority;
 
-    //this is fort the hazard that needs to be resolved by this plan
+    /**
+     * hazard, that will be resolved
+     */
     protected Hazard hazard;
 
-    //this is the constructor  the parameters we will use are suggestedBy,priority and hazard
+    /**
+     * @param suggestedBy
+     * @param priority
+     * @param hazard
+     */
     public Decision(Manager suggestedBy, int priority, Hazard hazard) {
         this.suggestedBy = suggestedBy;
         this.priority = priority;
         this.hazard = hazard;
     }
 
-    // this plan will be executed with the parameter as the commander
+    /**
+     * plan will be executed
+     * 
+     * @param commander
+     */
     public abstract void execute(CEO commander);
 
-
-    //this int will get the priority of the decision and we will return the priority
+    /**
+     * The priority
+     * 
+     * @return
+     */
     public int getPriority() {
         return priority;
     }
