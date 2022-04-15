@@ -12,10 +12,18 @@ public abstract class Employee implements HReporter_IF {
 
     public abstract void evacuate();
 
+    /**
+	 * set this employee's direct overseer
+	 * @param directOverseer boss
+	 */
     public void setDirectOverseer(HReporter_IF directOverseer) {
         this.overseer = (Administrator) directOverseer;
     }
-
+    
+    /**
+	 * get this employee's direct overseer
+	 * @return HReporter_IF - boss
+	 */
     public HReporter_IF getDirectOverseer() {
         return overseer;
     }
